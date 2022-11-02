@@ -1,13 +1,3 @@
-create table board(
-num int,
-title varchar(200),
-content varchar(2000),
-id varchar(10),
-postdate date default (current_date),
-visitcount int,
-primary key(num)
-);
-
 create table member(
  id varchar(10) not null primary key,
  pass varchar(10) not null,
